@@ -15,6 +15,7 @@ def knapsack_max_profit(weights,costs,capacity):
       selected_items.append(i-1)
       total_weight==weights[i-1]
   return table[num_items][capacity],selected_items
+  #if non user input then uncomment below lines
 # weights=[2,3,4,5]     (lines 18,19,20 are used only if given in question)
 # costs=[10,20,30,40]       (lines 21-25 used for user input only)
 # capacity=10
