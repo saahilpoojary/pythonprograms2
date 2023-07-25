@@ -31,7 +31,7 @@ if __name__ == "__main__":
         if try_again != "yes":
             break
          
-/*
+"""
 Enter the distance between node 1 and node 1: 2
 Enter the distance between node 1 and node 2: 1
 Enter the distance between node 1 and node 3: 3
@@ -50,4 +50,4 @@ Enter the distance between node 4 and node 3: 1
 Enter the distance between node 4 and node 4: 2
 Optimal order of drilling:  [1, 3, 2, 3, 4, 3, 1]
 Optimal cost of drilling:  8.0
-*/
+"""
